@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/yinlice/spring-cloud-config.git
+          username: yinlice@126.com
+          password: Windows@32
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+server:
+  port: 8083
+  servlet:
+    context-path: /config
+env:
+  test
