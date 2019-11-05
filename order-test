@@ -1,6 +1,6 @@
 spring:
   application:
-    name: config
+    name: config-test
   cloud:
     config:
       server:
@@ -8,7 +8,7 @@ spring:
           uri: https://github.com/yinlice/spring-cloud-config.git
           username: yinlice@126.com
           password: Windows@32
-
+          basedir: D:\practice\config\git-config\
 eureka:
   client:
     service-url:
