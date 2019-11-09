@@ -18,7 +18,7 @@ spring:
 env:
     testadds
 user:
-   name: hanqian11
+   name: hanqian12
    age:  23
 eureka:
   client:
