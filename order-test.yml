@@ -16,5 +16,5 @@ eureka:
 env:
   test
 user:
-  name: hanqian123456
+  name: hanqian666
   age:  18
