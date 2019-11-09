@@ -9,6 +9,11 @@ spring:
   jpa:
     show-sql: true
     database-platform: org.hibernate.dialect.MySQLDialect
+   rabbitmq:
+      host: 39.97.254.247
+      port: 5672
+      username: guest
+      password: guest
 eureka:
   client:
     service-url:
@@ -18,3 +23,4 @@ env:
 user:
   name: hanqian666888
   age:  18
+ 
