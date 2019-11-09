@@ -19,4 +19,8 @@ env:
     testadds
 user:
    name: hanqian123
-   age:  25
+   age:  23
+eureka:
+  client:
+    service-url:
+      defaultZone: http://39.97.254.247:8761/eureka
