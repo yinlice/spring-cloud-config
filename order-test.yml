@@ -1,26 +1,22 @@
 spring:
   application:
-    name: product
+    name: order
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    password: root
+    password: root-123
     url: jdbc:mysql://localhost:3306/sell?serverTimezone=UTC&characterEncoding=utf-8&useSSL=false
-  jpa:
-    show-sql: true
-    database-platform: org.hibernate.dialect.MySQLDialect
-   rabbitmq:
+  rabbitmq:
       host: 39.97.254.247
       port: 5672
       username: guest
       password: guest
-eureka:
-  client:
-    service-url:
-      defaultZone: http://39.97.254.247:8761/eureka
+
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQLDialect
 env:
-  test
+    testadds
 user:
-  name: hanqian666888
-  age:  18
- 
+   name: hanqian123
+   age:  25
