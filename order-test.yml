@@ -18,5 +18,5 @@ spring:
 env:
     testadds
 user:
-   name: hanqian13
-   age:  23
+   name: hanqian
+   age:  26
