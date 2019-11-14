@@ -20,7 +20,3 @@ env:
 user:
    name: hanqian13
    age:  23
-eureka:
-  client:
-    service-url:
-      defaultZone: http://39.97.254.247:8761/eureka
