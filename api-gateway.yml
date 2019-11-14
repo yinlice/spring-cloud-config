@@ -1,0 +1,11 @@
+#开启查看所有路由规则的权限
+management:
+  security:
+    enabled: false
+#自定义路由配置
+zuul:
+  routes:
+    myOrder:
+      path: /myOrder11/**
+      serviceId: order
+      sensitiveHeaders:
